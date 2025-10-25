@@ -4,8 +4,8 @@ spring:
       client:
         registration:
           cognito:
-            client-id: 6f5ip79k2vs8kpvjfpk89qofdb
-            client-secret: o1gqsmlg8tjvilr188823juh20i17usqtil1jn8ghd6vf4nic2b
+            client-id: 3lrb1rfnp3hd2hl0hjistjd30i
+            client-secret: qgkp4vgkbvslti5la3gc3325708gpglknim5re1d2u611dnkd5n
             scope:
               - email
               - openid
@@ -15,5 +15,8 @@ spring:
             redirect-uri: http://localhost:8080/login/oauth2/code/cognito
         provider:
           cognito:
-            issuerUri: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_ZH1LZdXim
+            issuerUri: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_uNwEdNQXl
             user-name-attribute: username
+server:
+  port: 8080
+

@@ -17,9 +17,9 @@ import java.nio.charset.StandardCharsets;
 @Slf4j
 public class CognitoLogoutHandler extends SimpleUrlLogoutSuccessHandler {
 
-    private static final String DOMAIN = "https://us-east-1zh1lzdxim.auth.us-east-1.amazoncognito.com";
+    private static final String DOMAIN = "https://us-east-1unwednqxl.auth.us-east-1.amazoncognito.com";
     private static final String LOGOUT_REDIRECT_URL = "http://localhost:8080/logged-out";
-    private static final String USER_POOL_CLIENT_ID = "6f5ip79k2vs8kpvjfpk89qofdb";
+    private static final String USER_POOL_CLIENT_ID = "3lrb1rfnp3hd2hl0hjistjd30i";
 
     /**
      * Here, we must implement the new logout URL request. We define what URL to send our request to, and set out client_id and logout_uri parameters.
